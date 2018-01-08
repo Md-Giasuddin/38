@@ -1,0 +1,127 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+
+.bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+
+.bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+
+.bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    margin-top: 105px;
+    width: 250px;
+    margin-left: -50px;
+}
+
+.section-title:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 50%;
+    content: '';
+    background: #000;
+    margin-top: -25px;
+}
+
+.team-bg {
+    height: 200px;
+    background-position: center top;
+    background-size: cover;
+    background-color: #ddd;
+    margin-bottom: 40px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.team-bg:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.team-content {
+    border: 1px solid #333;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+}
+
+.team-title h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #fff;
+    display: inline-block;
+    margin-bottom: 9px;
+    padding: 0 8px;
+}
+
+.team-title {
+    margin-top: -12px;
+}
+
+.team-content p {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.col-md-4:nth-child(2) .single-team-item {
+    margin-top: 100px;
+}
